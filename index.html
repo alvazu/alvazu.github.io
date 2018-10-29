@@ -80,54 +80,7 @@
   document.write("<a style='color:black;' href='http://miz.biz/'><span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'></span> Go to <u>miz.biz</u></a>");
 </script>
 </li>
-<li role="separator" class="divider"></li>
-<script type="text/javascript">
-/*
- function add_linktows(dn,name="",detail="",tag=""){
- if(dn==window.location.host) return;
- if(name=="") name=dn
-	document.write('<li><a href="http://'+dn+'" class="linktows"><h5>'+name+" "+tag+'<small>'+detail+'</small></h5></a></li>');
 
-  }*/
-  function add_linktws2(dn,desc="",desc_style="color:blue",jmp=1,name=""){
-	if(dn.toLowerCase()==window.location.host) return;
-	var disp;
-	var url;
-	
-	url="http://"+dn.toLowerCase()+'/';
-	
-	if(name=="") name=dn;
-	disp='<li style="color:black;"><a href="'+url+'"><b>'+name+"</b>";
-	if(jmp==0) disp+="*"
-	if(desc!="")
-		disp+=' - <span style="'+desc_style+'">'+desc+"</span>";
-	disp+="</a></li>";
-	document.write(disp);
-  }
-  add_linktws2("6in9.com","Sex in Nights~");
-  add_linktws2("c5.cx")
-  add_linktws2("DailyGermany.com","What's happening in Germany?","font-weight:bold;color:blue")
-  add_linktws2("Hubness.com","A Mathematical Keyword","font-style:italic;color:blue")
-  add_linktws2("IndiaU.com","India YOU ^_^",jmp=0)
-  add_linktws2("jo.gs","Your jogging expert.")
-  add_linktws2("miz.biz")
-  add_linktws2("Nobelprize.org.cn")
-  add_linktws2("outlook.com.hk","Hello, Outlook","font-weight:bold;color:blue",jmp=0)
-  add_linktws2("SuDrive.com")
-  add_linktws2("uploaded.cn",'"Get Files Uploaded"',"font-style:italic;color:blue",jmp=0)
-  add_linktws2("viawhat.com")
-  add_linktws2("wi.gs","Want Wigs?")
-  add_linktws2("x5tv.com")
-  
-
-
-/*add_linktows("hubness.com","Hubness","A Mathematical Keyword")
-add_linktows("uploaded.cn","Uploaded.cn",'Get Files Uploaded"')
-add_linktows("notewhat.com","","OK2")
-add_linktows("Outlook.com.hk")
-add_linktows("duer.org","Duer Open Software")
-*/
-</script>
 
 
 <!--
